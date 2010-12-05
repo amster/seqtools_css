@@ -88,3 +88,51 @@
     cursor: pointer;
     background: #800;
 }
+
+/* Modals */
+
+.modal-blocker {
+  position: absolute;
+  background: #000;
+  z-index: 10000;
+}
+
+.modal-dialog-container {
+  position: absolute;
+  z-index: 10001;
+}
+
+.modal-dialog-content {
+  width: 500px;
+  margin: 100px auto 0px;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 60px 40px 20px;
+  color: #000;
+}
+
+.modal-dialog-content .modal-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.modal-dialog-content .modal-controls .modal-button-cancel {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #800;
+}
+
+.modal-dialog-content .modal-controls input[type="button"] {
+  margin: 0px 30px;
+}
+
+.modal-dialog-content .modal-title {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 560px;
+  background: #ddd;
+  padding: 5px 10px;
+  font-weight: bold;
+}
