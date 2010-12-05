@@ -91,18 +91,18 @@
 
 /* Modals */
 
-.modal-blocker {
+.seq-modal-blocker {
   position: absolute;
   background: #000;
   z-index: 10000;
 }
 
-.modal-dialog-container {
+.seq-modal-dialog-container {
   position: absolute;
   z-index: 10001;
 }
 
-.modal-dialog-content {
+.seq-modal-dialog-content {
   width: 500px;
   margin: 100px auto 0px;
   border: 1px solid #000;
@@ -111,23 +111,23 @@
   color: #000;
 }
 
-.modal-dialog-content .modal-controls {
+.seq-modal-dialog-content .seq-modal-controls {
     text-align: center;
     margin-top: 20px;
 }
 
-.modal-dialog-content .modal-controls .modal-button-cancel {
+.seq-modal-dialog-content .seq-modal-controls .seq-modal-button-cancel {
   border: 0;
   padding: 0;
   background: transparent;
   color: #800;
 }
 
-.modal-dialog-content .modal-controls input[type="button"] {
+.seq-modal-dialog-content .seq-modal-controls input[type="button"] {
   margin: 0px 30px;
 }
 
-.modal-dialog-content .modal-title {
+.seq-modal-dialog-content .seq-modal-title {
   position: absolute;
   top: 0px;
   left: 0px;
